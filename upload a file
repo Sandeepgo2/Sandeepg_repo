@@ -12,10 +12,10 @@ Directory structure starts with: /data51/apps/adesa.com/images/
 
 --------------------------------------------------------------------------------------------------
 
-step 1 == change the file name ( if required ) to according to the link provide by the client in ticket  
+Step 1 == change the file name ( if required ) to according to the link provide by the client in ticket  
 
 
-step 0 == upload the file in the backend servers are, p-static-101, 102.adesa.com
+Step 0 == upload the file in the backend servers are, p-static-101, 102.adesa.com
 
 
 go to base dir
@@ -23,17 +23,17 @@ step 1 ---
 cd /data51/apps/adesa.com/images/
 
 
-step 2--
+Step 2--
 check the folder according to the url
 
 http://images.adesa.com/eng/Canada_Public_Auctions/Forms/Bidder_forms/ADESA Saskatoon Public Auction Bidder Registration Form",
 
 cd /data51/apps/adesa.com/images/eng/Canada_Public_Auctions/Forms/Bidder_forms
 
-step 3--
+Step 3--
 move the file in the location (if file with same name is there kindly check the ticket and update accordingly)
 
-step 4--
+Step 4--
 
 Once placed the file, have to restart the apache service via root user.
 sudo su 
@@ -42,7 +42,7 @@ service httpd restart
 service httpd status
 
 
-step 5--
+Step 5--
 check the url  it should be active
 
 
